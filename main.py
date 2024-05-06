@@ -110,18 +110,6 @@ class generation:
         """
         Classe que fornece um método estático para gerar CPFs aleatórios.
 
-        Métodos Estáticos:
-            - generate_cpf() -> str:
-                Gera um número de CPF aleatório válido.
-                Retorna uma string contendo o CPF gerado.
-
-                Este método utiliza o algoritmo de geração de dígitos verificadores para garantir que o CPF gerado seja válido.
-                O CPF é gerado com base em números aleatórios e é validado automaticamente antes de ser retornado.
-
-                Exemplo:
-                    cpf = generation.generate_cpf()
-                    print("CPF Gerado:", cpf)
-                    CPF Gerado: 12345678909
         """
 
         def calculate_digit(cpf_partial):
